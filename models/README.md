@@ -2,4 +2,6 @@
 
 ### Starting service on mac
 
-    `brew services start postgresql`
+```sh
+brew services start postgresql
+```
