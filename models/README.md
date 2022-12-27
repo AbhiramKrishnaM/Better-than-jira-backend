@@ -16,4 +16,8 @@
 
 ### Enable create database for the role
 
-    ALTER ROLE your_role_name CREATEDB
+    ALTER ROLE your_role_name CREATEDB;
+
+### Connecting to postgres with new role
+
+    psql -d postgres -U your_role_name
