@@ -6,6 +6,6 @@
 brew services start postgresql
 ```
 
-<?php
+    <?php
         echo "Hello world!";
-?>
+    ?>
