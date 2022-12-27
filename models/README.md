@@ -1,3 +1,5 @@
 ## Models
 
-Starting service on mac `brew services start postgresql`
+### Starting service on mac
+
+    `brew services start postgresql`
