@@ -1,0 +1,3 @@
+### Clearing postgres cli
+
+    /! clear
