@@ -4,8 +4,8 @@ dotenv.config()
 
 const app = express()
 
-app.get("/get", (req,res)=>{
-    res.send("Hello world")
+app.get("/test", (req,res)=>{
+    res.send("test endpoint")
 })
 
 const port = process.env.PORT
