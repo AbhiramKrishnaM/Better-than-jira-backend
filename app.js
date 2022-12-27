@@ -6,11 +6,11 @@ dotenv.config();
 const app = express();
 
 app.get("/test", (req, res) => {
-  res.send("test endpoint");
+  res.status(200).json("Test Endpoint");
 });
 
-const port = process.env.PORT;
+const port = process.env.PORT || 4000;
 
-// app.listen(port, () => {
-//   console.log(`Running at ${port}`);
-// });
+app.listen(port, () => {
+  console.log(`Running at ${port}`);
+});
