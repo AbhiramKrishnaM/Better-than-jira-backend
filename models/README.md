@@ -13,3 +13,7 @@
 ### Create a role and add password to it
 
     CREATE ROLE your_role_name WITH LOGIN PASSWORD 'your_password';
+
+### Enable create database for the role
+
+    ALTER ROLE your_role_name CREATEDB
