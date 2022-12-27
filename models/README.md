@@ -1,6 +1,6 @@
 ## Models
 
-[Reference links](https://blog.logrocket.com/crud-rest-api-node-js-express-postgresql/)
+[Reference links: LogRocket](https://blog.logrocket.com/crud-rest-api-node-js-express-postgresql/)
 
 ### Starting service on mac
 
