@@ -6,7 +6,7 @@ dotenv.config();
 const app = express();
 
 app.get("/test", (req, res) => {
-  res.status(200).json("Test Endpoint");
+  res.status(200).json({ msg: "Backend running!" });
 });
 
 const port = process.env.PORT || 4000;
