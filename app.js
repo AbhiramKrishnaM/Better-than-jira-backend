@@ -1,12 +1,9 @@
 import * as dotenv from "dotenv";
 import express from "express";
-import { pool } from "./db.config.js";
 
 dotenv.config();
 
 const app = express();
-
-console.log(pool);
 
 app.get("/test", (req, res) => {
   res.send("test endpoint");
