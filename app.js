@@ -1,6 +1,8 @@
 import * as dotenv from "dotenv";
 import express from "express";
 
+import user from "./routes/Route.users.js";
+
 dotenv.config();
 
 const app = express();
@@ -8,6 +10,8 @@ const app = express();
 app.get("/test", (req, res) => {
   res.status(200).json({ msg: "Backend running!" });
 });
+
+app.use("/user", user);
 
 const port = process.env.PORT || 4000;
 
