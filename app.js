@@ -1,7 +1,7 @@
 import * as dotenv from "dotenv";
 import express from "express";
 
-import user from "./routes/Route.users.js";
+import user from "./routes/route.users.js";
 
 dotenv.config();
 
